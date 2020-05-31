@@ -30,7 +30,7 @@ class NyokittoViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     override func viewDidLayoutSubviews() {
-        label.text = "コースを共有"
+        label.text = "共有"
         label.textAlignment = .center
         label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 14)
